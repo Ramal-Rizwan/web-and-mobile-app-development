@@ -1,0 +1,164 @@
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color:transparent;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: goldenrod;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  
+  
+  .topnav a.current{
+    background-color: black;
+  }
+
+  .main{
+      
+      padding: 0;
+      margin: 0;
+      font-size: 3em;
+      text-align: center;
+      font-family: arial;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translateX(-50%) translateY(-50%);
+      color: white;
+  }
+
+  
+     
+  
+  
+  #gallery {
+    line-height:0;
+    -webkit-column-count:5; /* split it into 5 columns */
+    -webkit-column-gap:5px; /* give it a 5px gap between columns */
+    -moz-column-count:5;
+    -moz-column-gap:5px;
+    column-count:5;
+    column-gap:5px;
+ }
+
+ #gallery img {
+    width: 100% !important;
+    height: auto !important;
+    margin-bottom:5px; /* to match column gap */
+    filter: grayscale(100%);
+ }
+
+ #gallery img:hover {
+    filter:none;
+ }
+ 
+
+ .destinations {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 290px;
+  height: 250px;
+}
+.destinations:hover {
+  border: 1px solid #777;
+}
+.destinations img {
+  width: 100%;
+  height: 70%;
+}
+
+.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+.book_now {
+  background-color: red;
+  border: 2px solid black;
+  color: white;
+  padding: 5px 10px;
+  text-align: center;
+  display: inline-block;
+  font-size: 20px;
+  margin: 10px 30px;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+.home{
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column;
+  position: relative;
+  z-index: 0;
+}
+
+.home .content{
+  text-align: center;
+}
+
+.home .content h3{
+  font-size: 4.5rem;
+  color:#fff;
+  text-transform: uppercase;
+  text-shadow: 0 .3rem .5rem rgba(0,0,0,.1);
+}
+
+.home .content p{
+  font-size: 2.5rem;
+  color:#fff;
+  padding:.5rem 0;
+}
+
+.home .video-container video{
+  position: absolute;
+  top:0; left: 0;
+  z-index: -1;
+  height: 100%;
+  width:100%;
+  object-fit: cover;
+}
+
+.home .controls{
+  padding:1rem;
+  border-radius: 5rem;
+  background:rgba(0,0,0,.7);
+  position: relative;
+  top:10rem;
+}
+
+
+
+
+
+
+
